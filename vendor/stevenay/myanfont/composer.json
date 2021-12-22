@@ -1,0 +1,33 @@
+{
+    "name": "stevenay/myanfont",
+    "description": "Zawgyi and Unicode Font Detector and Converter",
+    "license": "MIT",
+    "keywords": [
+        "detector",
+        "converter",
+        "zawgyi",
+        "unicode",
+        "myanmar-font"
+    ],
+    "homepage": "http://stevenay.wordpress.com",
+    "authors": [
+        {
+            "name": "SteveNay",
+            "email": "stevenaylinaung@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "googlei18n/myanmar-tools": ">=0.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SteveNay\\MyanFont\\": "src/"
+        },
+        "files": ["./src/MyanRabbit.php"]
+    }
+}

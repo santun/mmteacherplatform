@@ -1,0 +1,1 @@
+<iframe width="700" height="500" src="{{ $lecturesMedias->where('model_id', $currentLecture->id)->first()->getUrl() }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
